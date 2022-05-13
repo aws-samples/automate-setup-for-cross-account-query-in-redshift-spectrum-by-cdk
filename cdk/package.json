@@ -1,0 +1,31 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.15.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-glue-alpha": "^2.15.0-alpha.0",
+    "@aws-cdk/aws-redshift-alpha": "^2.15.0-alpha.0",
+    "aws-cdk-lib": "2.15.0",
+    "cdk-nag": "^2.9.7",
+    "constructs": "^10.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
