@@ -16,7 +16,7 @@
   "dependencies": {
     "@aws-cdk/aws-glue-alpha": "^2.15.0-alpha.0",
     "@aws-cdk/aws-redshift-alpha": "^2.15.0-alpha.0",
-    "aws-cdk-lib": "2.15.0",
+    "aws-cdk-lib": "2.80.0",
     "cdk-nag": "^2.9.7",
     "constructs": "^10.0.0"
   },
